@@ -1,3 +1,10 @@
+<p align="center">
+  <a href="https://www.python.org" target="_blank">
+    <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="400" alt="Python Logo">
+  </a>
+</p>
+
+
 # Image Compression Script
 
 ## Description
