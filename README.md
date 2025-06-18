@@ -1,46 +1,61 @@
-<p align="center">
-  <a href="https://www.python.org" target="_blank">
-    <img src="https://www.python.org/static/community_logos/python-logo-master-v3-TM.png" width="400" alt="Python Logo">
-  </a>
-</p>
+# 🗜️ Image Compression Script
 
+## 📖 About the Project
+This is a Python script to compress images within a specified folder using the `Pillow` library. It helps reduce file size without significantly compromising quality. Useful for web optimization and storage management.
 
-# Image Compression Script
+---
 
-## Description
-This script is used to compress images in a specific folder using the Python `Pillow` library. By utilizing this script, you can reduce the size of image files without significantly reducing their quality. The script supports popular image formats such as JPEG and PNG.
+## 🧰 Tech Stack
+- **Language:** Python 3.x
+- **Library:** Pillow
+- **Supported Formats:** `.jpg`, `.jpeg`, `.png`
 
-## Features
-- Compress images in a specific folder.
-- Supports image formats: `.jpg`, `.jpeg`, `.png`.
-- Provides the option to set the compression quality level.
-- Creates an output folder automatically if it does not exist.
-- Shows the file size before and after compression.
+---
 
-## System Requirements
-- Python 3.x
-- `Pillow` Library
+## ✨ Features
+- 🔄 Compress all images in a given folder
+- 📂 Automatically creates an output folder if not present
+- ⚙️ Adjustable compression quality (1–100)
+- 📏 Displays file sizes before and after compression
+- ✅ Supports `.jpg`, `.jpeg`, `.png`
 
-## Installation
-1. Make sure you have Python installed on your computer.
-2. Install the `Pillow` library using the following command:
-```bash
-pip install pillow
-```
+---
 
-## Usage
-1. Save the Python code in a file, for example `compress_images.py`.
-2. Run the script using the following command:
-```bash
-python compress_images.py
-```
-3. Follow these steps when prompted:
-- Enter the path of the folder containing the original images.
-- Enter the path of the folder to save the compressed images.
-- Enter the compression quality level (1-100). If left blank, the default value is 85.
+## 📦 Installation & Setup
 
-## Sample Output
-When the script is run, here is a sample output that is generated:
+1. **Install Python**  
+   Make sure Python is installed on your system. Check with:
+   ```bash
+   python --version
+   ```
+
+2. **Install Pillow**  
+   Use pip to install the required library:
+   ```bash
+   pip install pillow
+   ```
+
+3. **Save the Script**  
+   Save the Python script as `compress_images.py`.
+
+---
+
+## 🚀 Usage
+
+1. Open a terminal and navigate to the script's directory.
+2. Run the script:
+   ```bash
+   python compress_images.py
+   ```
+3. Follow the prompts:
+   - Enter the path of the folder containing the original images
+   - Enter the path of the folder to save the compressed images
+   - Enter the compression quality (1–100). Leave blank for default `85`.
+
+---
+
+## 💡 Sample Output
+
 ```text
 Enter the path of the folder containing the original images: /path/to/input
 Enter the path of the folder to save the compressed images: /path/to/output
@@ -56,14 +71,25 @@ Size before compression: 950.00 KB
 Size after compression: 700.00 KB
 ```
 
-## Important Notes
-- The script only compresses files with the extension `.jpg`, `.jpeg`, or `.png`.
-- Make sure the input and output folders have the appropriate read/write permissions.
-- Lower compression quality results in smaller file sizes but may reduce image quality.
+---
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+## ⚠️ Notes
+
+- Only images with extensions `.jpg`, `.jpeg`, or `.png` will be processed.
+- Ensure input/output folders have appropriate read/write permissions.
+- Lower quality results in smaller files, but may affect image clarity.
 
 ---
 
-Enjoy using this script to manage your image sizes more efficiently!
+## 👤 Author
+- **Genta Bahana Nagari** – [LinkedIn](https://www.linkedin.com/in/genta-bahana-nagari/) | [GitHub](https://github.com/genta-bahana-nagari)
+
+---
+
+## 🌟 Show Your Support
+If you find this script helpful, feel free to ⭐ the repository and share it with others!
+
+---
+
+## 📜 License
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
